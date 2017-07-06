@@ -22,6 +22,7 @@ class AutocompleteDropdown extends \yii\widgets\InputWidget
     function run()
     {
         AutocompleteDropdownAsset::register($this->view);
+        $this->options['id'] .= '-wrapper';
         $this->view->registerJs("autocomleteDropdownInit('{$this->options['id']}')");
         $this->autocompleteOptions['source'] = $this->source;
         $this->options['data-autocomplete'] = $this->autocompleteOptions;
