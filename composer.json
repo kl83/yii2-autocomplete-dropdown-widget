@@ -1,0 +1,21 @@
+{
+    "name": "kl83/yii2-autocomplete-dropdown-widget",
+    "description": "Dropdown widget with autocomplete jQuery UI and ability to send in form identifier of the selected item.",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "^2.0",
+        "yiisoft/yii2-jui": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Solovyov",
+            "email": "solovyov.a.a.19@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "kl83\\widgets\\": "widget/"
+        }
+    }
+}
