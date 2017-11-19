@@ -17,5 +17,11 @@
         "psr-4": {
             "kl83\\widgets\\": "widget/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }
