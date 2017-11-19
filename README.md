@@ -21,7 +21,7 @@ to the require section of your composer.json file.
 ## Widget options
 Option|Description
 ------|-----------
-**(string) source**|Url to load autocomlete source in JSON-formt. Example: [{"id":**id**,"label":"**some text**"}, ... ].
+**(string) source**|Url to load autocomlete source in JSON-format.<br>Example: [{"id": **id**, "label": "**some text**"}, ... ].
 **(array) autocompleteOptions**|JQueryUI Autocomplete widget options.
 **(string) textValue**|Initial text-input value.
 **(boolean) ajaxGlobal**|"global" property value of ajax request, [read more](http://api.jquery.com/jquery.ajax/).
