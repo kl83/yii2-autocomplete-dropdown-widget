@@ -1,6 +1,7 @@
 {
     "name": "kl83/yii2-autocomplete-dropdown-widget",
     "description": "Dropdown widget with autocomplete jQuery UI and ability to send in form identifier of the selected item.",
+    "keywords": ["yii2", "forms", "input widget"],
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "^2.0",
